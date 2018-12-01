@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>WOW stories</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script type="text/javascript" src="javascript.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header>
+        <img src="img/header.png" alt="logo WOW air">
+        <!--Logo-->
+        <h1>Lees hier ons uitgelichte verhaal</h1>
+        <!--header-->
+    </header>
+
+
+
+
+    <main>
+
+        <!--filteropties-->
+        
+<!--        labels-->
+<!--        Hoofdletters in attributenwaardes -->
+<!--            vreemde tekens/getallen-->
+<!--        fieldset -->
+<!--        duplicate names MAG NIET-->
+
+        <form>
+            <h2>Filters</h2>
+            <h3>Leestijd</h3>
+            
+            <input id="radio1" type="radio" name="leestijd" value="<5 min" checked> 
+            <label for="short">
+                5 min
+            </label>
+            
+            <input id="radio2" type="radio" name="leestijd" value="~10 min"> 
+            <label for="radio2">
+                10 min
+            </label>
+            
+            
+            <input id="radio3" type="radio" name="leestijd" value="~15 min">
+            <label for="radio3">
+               ~15 min
+            </label>
+            
+            <input id="radio4"  type="radio" name="leestijd" value=">15 min"> 
+            <label for="radio4">
+                >15min
+            </label>
+
+            <h3>filteropties</h3>
+
+            <select name="Emotie">
+                <option value="0">Emotie..</option>    
+                <option value="Blij">Blij</option>
+                <option value="Droevig">Droevig</option>
+                <option value="Aggresief">Aggresief</option>
+                <option value="Angst">Angst</option>
+                <option value="Ongemakkelijk">Ongemakkelijk</option>
+                <option value="Verward">Verward</option>
+                <option value="Geïriteerd">Geïriteerd</option>
+                <option value="Enthousiast">Enthousiast</option>
+                <option value="Neutraal">Neutraal</option>
+            </select>
+
+            <select name="Leeftijdsgrens">
+                <option value="0">Leeftijdsgrens..</option>
+                <option value="18+">18+</option>
+                <option value="Jongeren">Jongeren</option>
+                <option value="Kinderen">Kinderen</option>
+                <option value="Alle leeftijden">Alle leeftijden</option>
+            </select>
+
+            <select name="Tekstsoort">
+                <option value="0">Tekstsoort..</option>
+                <option value="Expressie">Expressie</option>
+                <option value="Amusement">Amusement</option>
+                <option value="Informatief">Informatief</option>
+            </select>
+
+            <select name="taal">
+                <option value="0">Taal..</option>
+                <option value="Nederlands">Nederlands</option>
+                <option value="Oud nederlands">Oud nederlands</option>
+                <option value="Nederlands accent">Nederlands accent</option>
+                <option value="Frans">Frans</option>
+                <option value="Engels">Engels</option>
+                <option value="Internationaal">Internationaal</option>
+                <option value="Overig">Overig</option>
+            </select>
+
+            <select name="Genre">
+                <option value="0">Genre..</option>
+                <option value="Fictie">Fictie</option>
+                <option value="Horror">Horror</option>
+                <option value="Poezië">Poezië</option>
+                <option value="Oorlog">Oorlog</option>
+                <option value="Humor">Humor</option>
+                <option value="Spannend">Spannend</option>
+                <option value="Godsdienst">Godsdienst</option>
+                <option value="Non fictie">Non fictie</option>
+            </select>
+
+        </form>
+
+
+
+        <!--De verhalen-->
+
+
+        <section id="verhalen">
+            <article>
+                <img src="https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/playlists/playlist_62/how_to_tell_a_story_update_1200x627.jpg?quality=89&w=800" alt="verhaal1">
+                <h4><a href="verhaal.html">Titel van het verhaal 1</a></h4>
+            </article>
+
+            <article>
+                <img src="https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/playlists/playlist_62/how_to_tell_a_story_update_1200x627.jpg?quality=89&w=800" alt="verhaal2">
+                <h4><a href="verhaal.html">Titel van het verhaal 2</a></h4>
+            </article>
+
+            <article>
+                <img src="https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/playlists/playlist_62/how_to_tell_a_story_update_1200x627.jpg?quality=89&w=800" alt="verhaal3">
+                <h4><a href="verhaal.html">Titel van het verhaal 3</a></h4>
+            </article>
+
+
+        </section>
+
+
+
+        <section id="bundels">
+            <h2>Of lees onze speciale WOW Bundels!
+            </h2>
+
+            <img src="img/bundel_1.png">
+
+        </section>
+
+
+        <!--Footer-->
+        <footer>
+
+            <p>Deze site wordt mede mogelijk gemaakt door <a href="#">WOW air</a> en <a href="#">Max Molovich</a>.</p>
+
+            <img src="img/wow_footer.png" alt="logo WOW air">
+            <!--footer logo-->
+
+
+        </footer>
+
+
+
+    </main>
+
+</body>
+
+</html>
